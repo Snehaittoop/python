@@ -9,15 +9,15 @@ def perimeterCircle():
     rad=int(input("enter radius"))
     perimeter=2*3.14*rad
     print(perimeter)
-def arearRect(len,bredth):
+def arearRect():
     len=int(input("enter length"))
     bredth=int(input("enter bredth"))
     area=len*bredth
     print(area)
-def periRect(len,bredth):
+def periRect():
     len=int(input("enter length"))
     bredth=int(input("enter bredth"))
-    perimeter=2(len*bredth)
+    perimeter=2*(len*bredth)
     print(perimeter)
 def areaSqure(len):
     len=int(input("enter length"))
@@ -48,9 +48,9 @@ while True:
     elif choice==2:
         perimeterCircle()
     elif choice==3:
-        arearRect(len,bredth)
+        arearRect()
     elif choice==4:
-        periRect(len,bredth)
+        periRect()
     elif choice==5:
         areaSqure(len)
     elif choice==6:
