@@ -1,12 +1,12 @@
 from secrets import choice
 
-
+student=[]
 while True:
     print("1. add student")
     print("2. view student")
     print("3. exit")
     choice=int(input("enter option"))
-    student =[]
+    
     if choice==1:
         getName=input("enter a name: ")
         getRoll=int(input("enter rollnumber: "))
