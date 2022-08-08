@@ -1,13 +1,13 @@
 from secrets import choice
 
 
-def areaCircle(r):
-    r=int(input("enter radius"))
-    area=3.14*r*r
+def areaCircle():
+    rad=int(input("enter radius"))
+    area=3.14*rad*rad
     print(area)
-def perimeterCircle(r):
-    r=int(input("enter radius"))
-    perimeter=2*3.14*r
+def perimeterCircle():
+    rad=int(input("enter radius"))
+    perimeter=2*3.14*rad
     print(perimeter)
 def arearRect(len,bredth):
     len=int(input("enter length"))
@@ -44,9 +44,9 @@ while True:
     print("7.exit")
     choice=int(input("select option"))
     if choice==1:
-        areaCircle(r)
+        areaCircle()
     elif choice==2:
-        perimeterCircle(r)
+        perimeterCircle()
     elif choice==3:
         arearRect(len,bredth)
     elif choice==4:
